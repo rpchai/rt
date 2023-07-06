@@ -8,7 +8,7 @@ int main() {
     string str;
 
     cout << "Enter a Secret Message: ";
-    getline(cin, str);
+    cin >> str;
     len = str.length();
 
     cout << "Enter number of rails: ";
